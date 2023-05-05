@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+}
+
+body {
+  background-image: url('https://images.pexels.com/photos/176851/pexels-photo-176851.jpeg');
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FFE81F;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.main h1{
+  margin: 1rem;
+  font-size: xx-large;
+}

@@ -1,0 +1,17 @@
+.character {
+  background-color: black;
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  padding: 1rem;
+}
+.character img{
+  width: 100%;
+  margin: 1rem;
+}
+.character p {
+  font-size: large;
+}
