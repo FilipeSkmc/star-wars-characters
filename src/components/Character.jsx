@@ -1,15 +1,14 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import './Character.css';
-import img from '../assets/user.jpg';
 
 export default class Character extends Component {
   render() {
-    const { personagem: { nome, altura, planetaNatal } } = this.props;
+    const { personagem: { nome, altura, planetaNatal, image } } = this.props;
     return (
       <div className="character">
         <h3>{nome}</h3>
-        <img src={ img } alt="nome" />
+        <img src={ image } alt="nome" />
         <p>
           Altura:
           {' '}
@@ -30,5 +29,6 @@ Character.propTypes = {
     altura: PropTypes.number,
     nome: PropTypes.string,
     planetaNatal: PropTypes.string,
+    image: PropTypes.string,
   }).isRequired,
 };
